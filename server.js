@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: false }));
 function passwordProtected(req, res, next) {
   res.set('WWW-Authenticate', 'Basic realm="Simple Todo App"');
   console.log(req.headers.authorization);
-  if (req.headers.authorization == 'Basic bGVhcm46a2l5b3Z1') {
+  if (req.headers.authorization == 'Basic "<your password>"') {
     next();
   } else {
     res.status(401).send('Authentification required');

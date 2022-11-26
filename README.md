@@ -6,6 +6,6 @@ Replace with your mongo connection link to connect, and your password for authen
 RUN,  
 npm install,   
 npm install, 
-npm install express --save, 
-npm install nodemon, 
-npm install sanitize-html, 
+npm install express --save,  
+npm install nodemon,   
+npm install sanitize-html 

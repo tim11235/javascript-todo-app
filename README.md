@@ -3,9 +3,9 @@ This is a todo app that has CRUD operations using Node's Express.js and mongodb 
 
 Replace with your mongo connection link to connect, and your password for authentification.
 
-RUN
-npm install /n
-npm install /n
-npm install express --save /n
-npm install nodemon /n
-npm install sanitize-html 
+RUN,  
+npm install,   
+npm install, 
+npm install express --save, 
+npm install nodemon, 
+npm install sanitize-html, 
